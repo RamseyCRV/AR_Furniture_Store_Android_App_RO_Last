@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".checkout.checkoutPayOnline">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Alegeti tipul cardului"
+            android:textColor="@color/DarkBlue"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:id="@+id/checkout_pay_online_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp">
+
+            <RadioButton
+                android:id="@+id/checkout_pay_online_visa_radio_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/visa_icon"
+                android:text="  VISA"
+                android:textColor="@color/Gray" />
+            <RadioButton
+                android:id="@+id/checkout_pay_online_mastercard_radio_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/mastercard_icon"
+                android:text="  MasterCard"
+                android:textColor="@color/Gray" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Introduceti datele cardului"
+            android:textColor="@color/DarkBlue"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/checkout_pay_online_card_number"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:hint="Numar Card"
+            android:textColorHint="@color/Gray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/checkout_pay_online_year"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="0.3"
+                android:hint="Luna"
+                android:textColorHint="@color/Gray" />
+
+            <EditText
+                android:id="@+id/checkout_pay_online_month"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="0.3"
+                android:hint="Anul"
+                android:textColorHint="@color/Gray" />
+
+            <EditText
+                android:id="@+id/checkout_pay_online_cvv"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="0.3"
+                android:hint="CVV"
+                android:textColorHint="@color/Gray" />
+
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/checkout_pay_online_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/checkout_pay_online_place_order"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="0.5"
+        android:text="Total Plata"
+        android:textColor="@color/DarkBlue"
+        android:textSize="16sp" />
+    <Button
+        android:id="@+id/checkout_pay_online_place_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/colorAccent"
+        android:text="Plasati comanda"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ARC Store</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_profile_name">Ciapa Robert-Vasile</string>
+    <string name="nav_header_profile_email">robert96vasile@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_home">Arc Store</string>
+    <string name="menu_store">Categorii de produse</string>
+    <string name="menu_favorites">Produse Favorite</string>
+    <string name="menu_about">Despre Mine</string>
+    <string name="menu_cart">Cos de cumparaturi</string>
+</resources>
