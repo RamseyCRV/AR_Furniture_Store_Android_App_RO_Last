@@ -31,17 +31,14 @@ public class    BedsCategory extends AppCompatActivity {
         final ArrayList<items> beds = new ArrayList<items>();
         beds.add(new items("Pat Mettalic", 236, R.drawable.bed1, R.drawable.bed11, R.drawable.bed111, "bed1.sfb", bedDescription));
         beds.add(new items("Pat Wood", 433, R.drawable.bed2, R.drawable.bed22, R.drawable.bed222, "bed2.sfb", bedDescription));
-        beds.add(new items("Pat Casual", 542, R.drawable.bed3, R.drawable.bed33, R.drawable.bed333, "bed3.sfb", bedDescription));
         beds.add(new items("Pat Sofa", 341, R.drawable.bed4, R.drawable.bed44, R.drawable.bed444, "bed4.sfb", bedDescription));
         beds.add(new items("Pat Black", 653, R.drawable.bed5, R.drawable.bed55, R.drawable.bed555, "bed5.sfb", bedDescription));
         beds.add(new items("Pat Doms", 234, R.drawable.bed1, R.drawable.bed11, R.drawable.bed111, "bed1.sfb", bedDescription));
         beds.add(new items("Pat Wooden", 436, R.drawable.bed2, R.drawable.bed22, R.drawable.bed222, "bed2.sfb", bedDescription));
-        beds.add(new items("Pat Ikea", 549, R.drawable.bed3, R.drawable.bed33, R.drawable.bed333, "bed3.sfb", bedDescription));
         beds.add(new items("Pat Sofas", 341, R.drawable.bed4, R.drawable.bed44, R.drawable.bed444, "bed4.sfb", bedDescription));
         beds.add(new items("Pat Caesar", 625, R.drawable.bed5, R.drawable.bed55, R.drawable.bed555, "bed5.sfb", bedDescription));
         beds.add(new items("Pat German", 233, R.drawable.bed1, R.drawable.bed11, R.drawable.bed111, "bed1.sfb", bedDescription));
         beds.add(new items("Pat Casuali", 453, R.drawable.bed2, R.drawable.bed22, R.drawable.bed222, "bed2.sfb", bedDescription));
-        beds.add(new items("Pat Memori" , 568, R.drawable.bed3, R.drawable.bed33, R.drawable.bed333, "bed3.sfb", bedDescription));
         beds.add(new items("Pat Donf", 374, R.drawable.bed4, R.drawable.bed44, R.drawable.bed444, "bed4.sfb", bedDescription));
         beds.add(new items("Pat Melo", 658, R.drawable.bed5, R.drawable.bed55, R.drawable.bed555, "bed5.sfb", bedDescription));
         itemsAdapter itAdapter = new itemsAdapter(this, beds);
